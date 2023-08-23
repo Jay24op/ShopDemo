@@ -98,6 +98,69 @@ html::-webkit-scrollbar-thumb{
     display: none;
 }
 
+.home{
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    background: url(/Images/back.png) no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+.home .homeContent{
+    width: 50%;
+    float: left;
+    text-align: center;
+    padding: 4rem;
+}
+.home .homeContent h2{
+    font-size: 7rem;
+    font-weight: bolder;
+    margin-bottom: 2rem;
+    line-height: 7rem;
+    color: var(--black);
+    text-shadow: var(--box-shadow);
+}
+.home .homeContent p{
+    font-size: 1.8rem;
+    line-height: 2rem;
+    margin-bottom: 2rem;
+}
+.home .homeContent .home-btn{
+    height: 3rem;
+}
+.home .homeContent .home-btn button{
+    font-size: 1.8rem;
+    background-color: var(--black);
+    color: var(--white);
+    border-radius: .7rem;
+    padding: .7rem 2.4rem;
+    cursor: pointer;
+}
+.home .homeContent .home-btn button:hover{
+    font-size: 2rem;
+    box-shadow: var(--box-shadow);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /* media queries for web responsive */
 
@@ -132,6 +195,10 @@ html::-webkit-scrollbar-thumb{
         font-size: 2rem;
         color: var(--black);
         margin: 1.5rem;
+    }
+    .home .homeContent{
+        margin-left: 0;
+        width: 75%;
     }
 }
 

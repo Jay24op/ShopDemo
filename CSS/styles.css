@@ -31,7 +31,7 @@ html::-webkit-scrollbar-thumb{
     background-color: var(--white);
     border-radius: 5rem;
 }
-
+/* heading */
 .header{
     top: 0;right: 0;left: 0;
     background-color: var(--white);
@@ -97,7 +97,7 @@ html::-webkit-scrollbar-thumb{
 #menu-bar{
     display: none;
 }
-
+/* home */
 .home{
     min-height: 100vh;
     display: flex;
@@ -140,19 +140,66 @@ html::-webkit-scrollbar-thumb{
     font-size: 2rem;
     box-shadow: var(--box-shadow);
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
+/* product */
+section{
+    padding: 2rem 7%;
+}
+.heading{
+    text-align: center;
+    font-size: 2.7rem;
+    margin-bottom: 3rem;
+    color: var(--black);
+}
+.product .product-row{
+    margin-bottom: 4rem;
+    display: flex;
+    align-items: center;
+}
+.product .product-row .box{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    background-color: var(--white);
+    padding: 2rem;
+    gap:1.5rem;
+    border-radius: 2rem;
+}
+.product .product-row .img img{
+    height: 100%;
+    width: 100%;
+}
+.product .product-row .img img:hover{
+    transform: scale(1.1);
+}
+.product .product-row .product-content{
+    margin-bottom: 2rem;
+}
+.product .product-row .product-content h3{
+    font-size: 4rem;
+    color: var(--black);
+}
+.product .product-row .product-content p{
+    font-size: 1.5rem;
+    line-height: 1.7rem;
+    color: var(--black);
+}
+.product .product-row .product-content .orderNow{
+    height: 3rem;
+    margin-top: 2rem;
+}
+.product-row .product-content .orderNow button{
+    font-size: 1.8rem;
+    background-color: var(--black);
+    color: var(--white);
+    border-radius: .7rem;
+    padding: .7rem 2rem;
+    cursor: pointer;
+}
+.product-row .product-content .orderNow button:hover{
+    font-size: 2rem;
+    box-shadow: var(--box-shadow);
+}
 
 
 

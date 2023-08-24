@@ -201,7 +201,9 @@ section{
     box-shadow: var(--box-shadow);
 }
 
-
+.swiper-pagination .swiper-pagination-bullet {
+    background-color: var(--black);
+}
 
 
 

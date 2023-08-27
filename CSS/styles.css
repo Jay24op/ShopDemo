@@ -200,12 +200,28 @@ section{
     font-size: 2rem;
     box-shadow: var(--box-shadow);
 }
-
+/* swiper */
 .swiper-pagination .swiper-pagination-bullet {
     background-color: var(--black);
 }
-
-
+/* blogs */
+.blogs{
+    background: url(/Images/backGround.png) no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+.blogs .blogs-row .box{
+    display: flex;
+    align-items: center;
+    background-color: var(--white);
+    flex-wrap: wrap;
+}
+.blogs .blogs-row .box .img{
+    flex: 1 1 45rem;
+}
+.blogs .blogs-row .box .img img{
+    width: 100%;
+}
 
 
 

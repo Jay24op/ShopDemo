@@ -20,13 +20,13 @@ var swiper = new Swiper(".product-row", {
       clickable: true,
     },
     breakpoints: {
-      640: {
+      600: {
         slidesPerView: 1,
       },
       768: {
         slidesPerView: 2,
       },
-      1024: {
+      991: {
         slidesPerView: 3,
       },
     },

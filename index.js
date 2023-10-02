@@ -31,3 +31,26 @@ var swiper = new Swiper(".product-row", {
       },
     },
   });
+var swiper = new Swiper(".blogs-row", {
+    spaceBetween: 30,
+    centeredSlides:true, //centering slide to screen
+    autoplay: {
+        delay:9500,
+        disableOnInteraction:false,
+    },
+    pagination: {
+      el: ".swiper-pagination",
+      clickable: true,
+    },
+    breakpoints: {
+      600: {
+        slidesPerView: 1,
+      },
+      768: {
+        slidesPerView: 1,
+      },
+      991: {
+        slidesPerView: 1,
+      },
+    },
+  });

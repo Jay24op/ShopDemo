@@ -204,6 +204,10 @@ section{
 .swiper-pagination .swiper-pagination-bullet {
     background-color: var(--black);
 }
+div .swiper-button-prev,
+div .swiper-button-next {
+color: var(--black);
+}
 /* blogs */
 .blogs{
     background: url(/Images/backGround.png) no-repeat;

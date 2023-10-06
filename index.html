@@ -1,245 +1,388 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <!-- testing line -->
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Demo1</title>
     <!-- css links-->
-    <link rel="stylesheet" href="CSS/styles.css">
+    <link rel="stylesheet" href="CSS/styles.css" />
     <!-- sdn icon link -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+    />
     <!-- swiper link -->
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css" />
-</head>
-<body>
-    
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css"
+    />
+  </head>
+  <body>
     <!-- header section -->
     <header class="header">
-        <div class="logoContent">
-            <a href="#" class="logo"><img src="Images/logo.png" alt="logo"></a>
-            <h1 class="logoName">Sweet Cake</h1>
-        </div>
-        
-        <nav class="navbar">
-            <a href="#home">home</a>
-            <a href="#product">product</a>
-            <a href="#blogs">blogs</a>
-            <a href="#review">review</a>
-            <a href="#contact">contact</a>
-        
-        </nav>
+      <div class="logoContent">
+        <a href="#" class="logo"><img src="Images/logo.png" alt="logo" /></a>
+        <h1 class="logoName">Sweet Cake</h1>
+      </div>
 
-        <div class="icon">
-            <i class="fas fa-search" id="search"></i>
-            <i class="fas fa-bars" id="menu-bar"></i>
-        </div>
+      <nav class="navbar">
+        <a href="#home">home</a>
+        <a href="#product">product</a>
+        <a href="#blogs">blogs</a>
+        <a href="#review">review</a>
+        <a href="#footer">contact</a>
+      </nav>
 
-        <div class="search">
-            <input type="search" placeholder="search...">
-        </div>
+      <div class="icon">
+        <i class="fas fa-search" id="search"></i>
+        <i class="fas fa-bars" id="menu-bar"></i>
+      </div>
+
+      <div class="search">
+        <input type="search" placeholder="search..." />
+      </div>
     </header>
-    
+
     <!-- home section -->
     <section class="home" id="home">
-        <div class="homeContent">
-            <h2>Delicious Cake for Everyone</h2>
-            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. 
-                Eveniet quidem id, hic atque delectus magni ut odit incidunt 
-                ipsum obcaecati architecto unde, corrupti, eos doloribus 
-                expedita itaque consequuntur in repellat?</p>
-            <div class="home-btn">
-                <a href="#"><button>see more</button></a>
-            </div>
+      <div class="homeContent">
+        <h2>Delicious Cake for Everyone</h2>
+        <p>
+          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eveniet
+          quidem id, hic atque delectus magni ut odit incidunt ipsum obcaecati
+          architecto unde, corrupti, eos doloribus expedita itaque consequuntur
+          in repellat?
+        </p>
+        <div class="home-btn">
+          <a href="#"><button>see more</button></a>
         </div>
+      </div>
     </section>
 
     <!-- product section -->
     <section class="product" id="product">
-        <div class="heading">
-            <h2>Our Exclusive Products</h2>
-        </div>
-        <!-- row1 -->
-        <div class="swiper product-row">
-            <div class="swiper-wrapper">
-                <!-- item #1 -->
-                <div class="swiper-slide box">
-                    <div class="img">
-                        <img src="Images/cake1.png" alt="cake.ex1">
-                    </div>
-                    <div class="product-content">
-                        <h3>Chocolate</h3>
-                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. 
-                            Quod ducimus tenetur cumque reiciendis error magnam odit 
-                            nam, repudiandae doloribus debitis ipsa?
-                        </p>
-                        <div class="orderNow">
-                            <button>Order Now</button>
-                        </div>
-                    </div>
-                </div>
-                <!-- item #2 -->
-                <div class="swiper-slide box">
-                    <div class="img">
-                        <img src="Images/cake2.png" alt="cake.ex2">
-                    </div>
-                    <div class="product-content">
-                        <h3>Chocolate</h3>
-                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. 
-                            Quod ducimus tenetur cumque reiciendis error magnam odit 
-                            nam, repudiandae doloribus debitis ipsa?
-                        </p>
-                        <div class="orderNow">
-                            <button>Order Now</button>
-                        </div>
-                    </div>
-                </div>
-                <!-- item #3 -->
-                <div class="swiper-slide box">
-                    <div class="img">
-                        <img src="Images/cake3.png" alt="cake.ex3">
-                    </div>
-                    <div class="product-content">
-                        <h3>Chocolate</h3>
-                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. 
-                            Quod ducimus tenetur cumque reiciendis error magnam odit nam, 
-                            epudiandae doloribus debitis ipsa?
-                        </p>
-                        <div class="orderNow">
-                            <button>Order Now</button>
-                        </div>
-                    </div>
-                </div>
+      <div class="heading">
+        <h2>Our Exclusive Products</h2>
+      </div>
+
+      <!-- row1 -->
+      <div class="swiper product-row">
+        <div class="swiper-wrapper">
+          <!-- item #1 -->
+          <div class="swiper-slide box">
+            <div class="img">
+              <img src="Images/cake1.png" alt="cake.ex1" />
             </div>
-            <div class="swiper-pagination"></div>
-        </div>
-        <!-- row2 -->       
-        <div class="swiper product-row">
-            <div class="swiper-wrapper">
-                <!-- item #1 -->
-                <div class="swiper-slide box">
-                    <div class="img">
-                        <img src="Images/cake1.png" alt="cake.ex1">
-                    </div>
-                    <div class="product-content">
-                        <h3>Chocolate</h3>
-                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. 
-                            Quod ducimus tenetur cumque reiciendis error magnam odit 
-                            nam, repudiandae doloribus debitis ipsa?
-                        </p>
-                        <div class="orderNow">
-                            <button>Order Now</button>
-                        </div>
-                    </div>
-                </div>
-                <!-- item #2 -->
-                <div class="swiper-slide box">
-                    <div class="img">
-                        <img src="Images/cake2.png" alt="cake.ex2">
-                    </div>
-                    <div class="product-content">
-                        <h3>Chocolate</h3>
-                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. 
-                            Quod ducimus tenetur cumque reiciendis error magnam odit 
-                            nam, repudiandae doloribus debitis ipsa?
-                        </p>
-                        <div class="orderNow">
-                            <button>Order Now</button>
-                        </div>
-                    </div>
-                </div>
-                <!-- item #3 -->
-                <div class="swiper-slide box">
-                    <div class="img">
-                        <img src="Images/cake3.png" alt="cake.ex3">
-                    </div>
-                    <div class="product-content">
-                        <h3>Chocolate</h3>
-                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. 
-                            Quod ducimus tenetur cumque reiciendis error magnam odit nam, 
-                            epudiandae doloribus debitis ipsa?
-                        </p>
-                        <div class="orderNow">
-                            <button>Order Now</button>
-                        </div>
-                    </div>
-                </div>
+            <div class="product-content">
+              <h3>Chocolate</h3>
+              <p>
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quod
+                ducimus tenetur cumque reiciendis error magnam odit nam,
+                repudiandae doloribus debitis ipsa?
+              </p>
+              <div class="orderNow">
+                <button>Order Now</button>
+              </div>
             </div>
-            <div class="swiper-pagination"></div>
+          </div>
+          <!-- item #2 -->
+          <div class="swiper-slide box">
+            <div class="img">
+              <img src="Images/cake2.png" alt="cake.ex2" />
+            </div>
+            <div class="product-content">
+              <h3>Chocolate</h3>
+              <p>
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quod
+                ducimus tenetur cumque reiciendis error magnam odit nam,
+                repudiandae doloribus debitis ipsa?
+              </p>
+              <div class="orderNow">
+                <button>Order Now</button>
+              </div>
+            </div>
+          </div>
+          <!-- item #3 -->
+          <div class="swiper-slide box">
+            <div class="img">
+              <img src="Images/cake3.png" alt="cake.ex3" />
+            </div>
+            <div class="product-content">
+              <h3>Chocolate</h3>
+              <p>
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quod
+                ducimus tenetur cumque reiciendis error magnam odit nam,
+                epudiandae doloribus debitis ipsa?
+              </p>
+              <div class="orderNow">
+                <button>Order Now</button>
+              </div>
+            </div>
+          </div>
         </div>
+        <div class="swiper-pagination"></div>
+      </div>
+      <!-- row2 -->
+      <div class="swiper product-row">
+        <div class="swiper-wrapper">
+          <!-- item #1 -->
+          <div class="swiper-slide box">
+            <div class="img">
+              <img src="Images/cake1.png" alt="cake.ex1" />
+            </div>
+            <div class="product-content">
+              <h3>Chocolate</h3>
+              <p>
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quod
+                ducimus tenetur cumque reiciendis error magnam odit nam,
+                repudiandae doloribus debitis ipsa?
+              </p>
+              <div class="orderNow">
+                <button>Order Now</button>
+              </div>
+            </div>
+          </div>
+          <!-- item #2 -->
+          <div class="swiper-slide box">
+            <div class="img">
+              <img src="Images/cake2.png" alt="cake.ex2" />
+            </div>
+            <div class="product-content">
+              <h3>Chocolate</h3>
+              <p>
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quod
+                ducimus tenetur cumque reiciendis error magnam odit nam,
+                repudiandae doloribus debitis ipsa?
+              </p>
+              <div class="orderNow">
+                <button>Order Now</button>
+              </div>
+            </div>
+          </div>
+          <!-- item #3 -->
+          <div class="swiper-slide box">
+            <div class="img">
+              <img src="Images/cake3.png" alt="cake.ex3" />
+            </div>
+            <div class="product-content">
+              <h3>Chocolate</h3>
+              <p>
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quod
+                ducimus tenetur cumque reiciendis error magnam odit nam,
+                epudiandae doloribus debitis ipsa?
+              </p>
+              <div class="orderNow">
+                <button>Order Now</button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="swiper-pagination"></div>
+      </div>
     </section>
-    
+
     <!-- blog section -->
     <section class="blogs" id="blogs">
-        <div class="swiper blogs-row">
-            <div class="swiper-wrapper">
-                <!-- box #1 -->
-                <div class="swiper-slide box">
-                    <div class="img">
-                        <img src="Images/blog-img1.png" alt="blogex1">
-                    </div>
-                    <div class="content">
-                        <h3>Vanilla Buttercream Cupcake With Sprinkles</h3>
-                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-                            Sapiente ut pariatur eius, necessitatibus dolor nihil in
-                            exercitationem, qui impedit quibusdam, neque nulla iure.
-                            Nihil, accusamus quibusdam hic ex dignissimos maiores.</p>
-                        <p>Ex sint explicabo libero, eum non nihil. At rem, ab dolorum
-                                temporibus voluptas dicta consequatur.</p>
-                        <a href="#blogs" class="btn"><b>learn more</b></a>
-                    </div>
-                </div>
-                <!-- box #2 -->
-                <div class="swiper-slide box">
-                    <div class="img">
-                        <img src="Images/blog-img2.png" alt="blogex1">
-                    </div>
-                    <div class="content">
-                        <h3>Vanilla Buttercream Cupcake With Sprinkles</h3>
-                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-                            Sapiente ut pariatur eius, necessitatibus dolor nihil in
-                            exercitationem, qui impedit quibusdam, neque nulla iure.
-                            Nihil, accusamus quibusdam hic ex dignissimos maiores.</p>
-                        <p>Ex sint explicabo libero, eum non nihil. At rem, ab dolorum
-                                temporibus voluptas dicta consequatur.</p>
-                        <a href="#blogs" class="btn"><b>learn more</b></a>
-                    </div>
-                </div>
-                <!-- box #3 -->
-                <div class="swiper-slide box">
-                    <div class="img">
-                        <img src="Images/blog-img3.png" alt="blogex1">
-                    </div>
-                    <div class="content">
-                        <h3>Vanilla Buttercream Cupcake With Sprinkles</h3>
-                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-                            Sapiente ut pariatur eius, necessitatibus dolor nihil in
-                            exercitationem, qui impedit quibusdam, neque nulla iure.
-                            Nihil, accusamus quibusdam hic ex dignissimos maiores.</p>
-                        <p>Ex sint explicabo libero, eum non nihil. At rem, ab dolorum
-                                temporibus voluptas dicta consequatur.</p>
-                        <a href="#blogs" class="btn"><b>learn more</b></a>
-                    </div>
-                </div>
+      <div class="swiper blogs-row">
+        <div class="swiper-wrapper">
+          <!-- box #1 -->
+          <div class="swiper-slide box">
+            <div class="img">
+              <img src="Images/blog-img1.png" alt="blogex1" />
             </div>
-            <div class="swiper-button-next"></div>
-            <div class="swiper-button-prev"></div>
-            <div class="swiper-pagination"></div>
+            <div class="content">
+              <h3>Vanilla Buttercream Cupcake With Sprinkles</h3>
+              <p>
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                Sapiente ut pariatur eius, necessitatibus dolor nihil in
+                exercitationem, qui impedit quibusdam, neque nulla iure. Nihil,
+                accusamus quibusdam hic ex dignissimos maiores.
+              </p>
+              <p>
+                Ex sint explicabo libero, eum non nihil. At rem, ab dolorum
+                temporibus voluptas dicta consequatur.
+              </p>
+              <a href="#blogs" class="btn"><b>learn more</b></a>
+            </div>
+          </div>
+          <!-- box #2 -->
+          <div class="swiper-slide box">
+            <div class="img">
+              <img src="Images/blog-img2.png" alt="blogex1" />
+            </div>
+            <div class="content">
+              <h3>Vanilla Buttercream Cupcake With Sprinkles</h3>
+              <p>
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                Sapiente ut pariatur eius, necessitatibus dolor nihil in
+                exercitationem, qui impedit quibusdam, neque nulla iure. Nihil,
+                accusamus quibusdam hic ex dignissimos maiores.
+              </p>
+              <p>
+                Ex sint explicabo libero, eum non nihil. At rem, ab dolorum
+                temporibus voluptas dicta consequatur.
+              </p>
+              <a href="#blogs" class="btn"><b>learn more</b></a>
+            </div>
+          </div>
+          <!-- box #3 -->
+          <div class="swiper-slide box">
+            <div class="img">
+              <img src="Images/blog-img3.png" alt="blogex1" />
+            </div>
+            <div class="content">
+              <h3>Vanilla Buttercream Cupcake With Sprinkles</h3>
+              <p>
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                Sapiente ut pariatur eius, necessitatibus dolor nihil in
+                exercitationem, qui impedit quibusdam, neque nulla iure. Nihil,
+                accusamus quibusdam hic ex dignissimos maiores.
+              </p>
+              <p>
+                Ex sint explicabo libero, eum non nihil. At rem, ab dolorum
+                temporibus voluptas dicta consequatur.
+              </p>
+              <a href="#blogs" class="btn"><b>learn more</b></a>
+            </div>
+          </div>
         </div>
+        <div class="swiper-button-next"></div>
+        <div class="swiper-button-prev"></div>
+        <div class="swiper-pagination"></div>
+      </div>
+    </section>
+
+    <!-- newsletter section -->
+    <section class="newsletter">
+      <form action="">
+        <h3>subscribe for lastest update</h3>
+        <input type="email" placeholder="enter your email" class="box" />
+        <input type="button" value="subscribe" class="box2" />
+      </form>
     </section>
 
     <!-- review section -->
-     <section class="review" id="review">
+    <section class="review" id="review">
+      <div class="heading">
+        <h2>client reviews</h2>
+      </div>
 
-     </section>
-    <!-- contact section -->
-    <section class="contact" id="contact">
-        
+      <div class="swiper review-row">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide box">
+            <div class="client-review">
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Officia, dignissimos? Illum porro mollitia saepe excepturi
+                laudantium suscipit sit totam placeat similique et aperiam odit
+                id inventore accusantium adipisci, cumque molestias.
+              </p>
+            </div>
+            <div class="client-info">
+              <div class="img">
+                <img src="/Images/client1.jpg" alt="clientpfp" />
+              </div>
+              <div class="clientName">
+                <h3>John Doe</h3>
+                <p>Web Developer</p>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide box">
+            <div class="client-review">
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Officia, dignissimos? Illum porro mollitia saepe excepturi
+                laudantium suscipit sit totam placeat similique et aperiam odit
+                id inventore accusantium adipisci, cumque molestias.
+              </p>
+            </div>
+            <div class="client-info">
+              <div class="img">
+                <img src="/Images/client1.jpg" alt="clientpfp" />
+              </div>
+              <div class="clientName">
+                <h3>John Doe</h3>
+                <p>Web Developer</p>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide box">
+            <div class="client-review">
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Officia, dignissimos? Illum porro mollitia saepe excepturi
+                laudantium suscipit sit totam placeat similique et aperiam odit
+                id inventore accusantium adipisci, cumque molestias.
+              </p>
+            </div>
+            <div class="client-info">
+              <div class="img">
+                <img src="/Images/client1.jpg" alt="clientpfp" />
+              </div>
+              <div class="clientName">
+                <h3>John Doe</h3>
+                <p>Web Developer</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="swiper-pagination"></div>
+      </div>
     </section>
+
+    <!-- footer section -->
+    <footer class="footer" id="footer">
+      <div class="box-container">
+        <div class="mainBox">
+          <div class="content">
+            <a href="#"><img src="Images/logo.png" alt="" />logo</a>
+            <h1 class="logoname">Sweet Cake</h1>
+          </div>
+
+          <p>
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sit libero
+            cum temporibus optio nihil cumque magnam maxime.
+          </p>
+        </div>
+        <div class="box">
+          <h3>Quick link</h3>
+          <a href="#"><i class="fas fa-arrow-right"></i>Home</a>
+          <a href="#"><i class="fas fa-arrow-right"></i>Product</a>
+          <a href="#"><i class="fas fa-arrow-right"></i>Blog</a>
+          <a href="#"><i class="fas fa-arrow-right"></i>Review</a>
+          <a href="#"><i class="fas fa-arrow-right"></i>Contact</a>
+        </div>
+        <div class="box">
+          <h3>Extra link</h3>
+          <a href="#"><i class="fas fa-arrow-right"></i>Account Info</a>
+          <a href="#"><i class="fas fa-arrow-right"></i>Order Item</a>
+          <a href="#"><i class="fas fa-arrow-right"></i>privacy policy</a>
+          <a href="#"><i class="fas fa-arrow-right"></i>payment method</a>
+          <a href="#"><i class="fas fa-arrow-right"></i>our services</a>
+        </div>
+        <div class="box">
+          <h3>Contant Info</h3>
+          <a href="#"><i class="fas fa-phone"></i>+1 (888)234-5678</a>
+          <a href="#"><i class="fas fa-envelope"></i>welcome@jaytech.pro</a>
+        </div>
+      </div>
+      <div class="share">
+        <a href="#" class="fab fa-facebook-f"></a>
+        <a href="#" class="fab fa-twitter"></a>
+        <a href="#" class="fab fa-instagram"></a>
+        <a href="#" class="fab fa-linkedin"></a>
+        <a href="#" class="fab fa-pinterest"></a>
+      </div>
+      <div class="credit">
+        created by <span>Jason Edwards</span> | all rights reserved !
+      </div>
+    </footer>
+
     <!-- swiper js link -->
     <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
 
     <!-- custom js file -->
     <script src="index.js"></script>
-</body>
+  </body>
 </html>

@@ -356,7 +356,7 @@ color: var(--black);
 .footer .share a:hover{
     background-color: var(--white); color: var(--black);
 }
-.footer .credit
+.footer .credit{
     font-size: 2rem; margin-top: 2rem 0;
     padding-bottom: 2rem; text-align: center;
     color: var(--black);
